@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sumContainer{
+    width: 30%;
+    background-color: rgba(245, 245, 245, 0.436);
+    border:none;
+    padding: 20px;
+    font-family: Roboto;
+    height: 82vh;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.sumNote{
+    border:none;
+}
+
+.sumHeader{
+    background-color: #334F20;
+    color: white;
+    text-align: center;
+    font-size: small;
+
+}
+
+.check{
+    background-color: white;
+    font-size: small;
+    height: 100px;
+
+}
+
+.sumInputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0 15px 0;
+}
+
+.inp{
+    background-color: white;
+    height: 40px;
+    font-size: large;
+}
