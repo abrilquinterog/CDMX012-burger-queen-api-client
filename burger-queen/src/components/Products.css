@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.img{
+    width: 160px;
+    height: 160px;
+}
+
+.productContainer{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 20px 0 0 20px;
+}
+
+body{
+    background-color: #FFEDAB;
+}
+
+.productCard{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageContainer{
+    background-color: white;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.productHeader{
+    text-align: center;
+    color: white;
+    background-color: #334F20;
+    width: 200px;
+}
+
